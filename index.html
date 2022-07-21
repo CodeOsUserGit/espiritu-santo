@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logos/logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=DM+Sans:wght@500;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Iglesia Internacional Huerto del Espíritu Santo</title>
+</head>
+
+<body>
+
+    <!-- El header broo 🤙🏽 -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><span>I</span>HES</h1>
+            </div>
+            <div class="nav-links">
+                <div class="nav-link"><a href="#">INICIO</a></div>
+                <div class="nav-link"><a href="#about">NOSOTROS</a></div>
+                <div class="nav-link"><a href="#">SERVICIOS</a></div>
+                <div class="nav-link"><a href="#">ACTIVIDADES</a></div>
+                <div class="nav-link"><a href="#">JUEGOS</a></div>
+                <div class="nav-link"><a href="#">CONTACTOS</a></div>
+            </div>
+            <div class="nav-search">
+                <input type="search" placeholder="Buscar...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="theme">
+                <button><i class="fa fa-moon"></i></button>
+            </div>
+            <!-- Broo, lo responsivo 🤙🏽 -->
+            <div class="nav-responsive">
+                <div class="menu" id="menu">
+                    <button onclick="showMenu(menu)" value="show"><i class="fa fa-bars"></i></button>
+                </div>
+                <div class="resnav-content" id="rvc">
+                    <div class="resnav-search">
+                        <input type="search" placeholder="Buscar...">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="resnav-theme">
+                        <button><i class="fa fa-moon"></i></button>
+                    </div>
+                    <div class="resnav-links">
+                        <div class="resnav-link"><a href="#">INICIO</a></div>
+                        <div class="resnav-link"><a href="#about">NOSOTROS</a></div>
+                        <div class="resnav-link"><a href="#">SERVICIOS</a></div>
+                        <div class="resnav-link"><a href="#">ACTIVIDADES</a></div>
+                        <div class="resnav-link"><a href="#">JUEGOS</a></div>
+                        <div class="resnav-link"><a href="#">CONTACTOS</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- El Hero broo 🤙🏽 -->
+    <div class="hero">
+        <div class="hero__presentation">
+            <img src="assets/img/hero/hero.png" alt="">
+        </div>
+        <div class="hero__text">
+            <div class="hero__title">
+                <h3>Este es el titulo de la pagina</h3>
+            </div>
+            <div class="hero__description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ut temporibus, qui illum impedit sed.
+                    Sed nihil suscipit mollitia reiciendis recusandae dignissimos molestiae distinctio dolore commodi,
+                    iusto corporis repellendus porro nostrum.
+                    Molestiae ea doloremque esse voluptas amet. Tempora, dolor exercitationem.
+                </p>
+            </div>
+        </div>
+
+        <button class="start" href="#about">Iniciar</button>
+    </div>
+
+
+    <!-- About broo 🤙🏽 -->
+    <section>
+        <div class="about" id="about">
+            <h1>NOSOtROS</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+            <div class="presentation">
+                <img src="./assets/img/about/about.jpg" alt="presentation">
+            </div>
+            <div class="container">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/information.png" alt="About">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>NOSOTROS</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab
+                                    laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/vision.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>VISIÓN</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab
+                                    laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/mision.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>MISIÓN</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab
+                                    laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/values.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>VALORES</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab
+                                    laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container__services">
+            <h3 class="container__title">Services</h3>
+            <h2 class="container__descripcion__services">Lorem ipsum dolor sit amet.</h2>
+
+            <div class="cards">
+
+                <!--Card 1-->
+                <div class="card card-1">
+                    <div class="img">
+                        <img src="assets/img/services/cadena.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h3 class="titulo">Este es el titulo</h3>
+                        <p> Esta es la descripcion Esta es la descripcion Esta es la descripcion Esta es la descripcion  </p>
+                        <button>Reservar</button>
+                    </div>
+                </div>
+
+                <!--Card 2-->
+                <div class="card card-2">
+                    <div class="img">
+                        <img src="assets//img/services/coro.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h3 class="titulo">Este es el titulo</h3>
+                        <p> Esta es la descripcion Esta es la descripcion Esta es la descripcion Esta es la descripcion  </p>
+                        <button>Reservar</button>
+                    </div>
+                </div>
+
+                <!--Card 3-->
+                <div class="card card-3">
+                    <div class="img">
+                        <img src="assets//img/services/coro.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h3 class="titulo">Este es el titulo</h3>
+                        <p> Esta es la descripcion Esta es la descripcion Esta es la descripcion Esta es la descripcion  </p>
+                        <button>Reservar</button>
+                    </div>
+                </div>
+
+                <!--Card 4-->
+                <div class="card card-4">
+                    <div class="img">
+                        <img src="assets//img/services/coro.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h3 class="titulo">Este es el titulo</h3>
+                        <p> Esta es la descripcion Esta es la descripcion Esta es la descripcion Esta es la descripcion  </p>
+                        <button>Reservar</button>
+                    </div>
+                </div>
+
+                <!--Card 5-->
+                <div class="card card-5">
+                    <div class="img">
+                        <img src="assets//img/services/coro.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h3 class="titulo">Este es el titulo</h3>
+                        <p> Esta es la descripcion Esta es la descripcion Esta es la descripcion Esta es la descripcion  </p>
+                        <button>Reservar</button>
+                    </div>
+                </div>
+
+                <!--Card 6-->
+                <div class="card card-5">
+                    <div class="img">
+                        <img src="assets//img/services/coro.png" alt="">
+                    </div>
+                    <div class="description">
+                        <h3 class="titulo">Este es el titulo</h3>
+                        <p> Esta es la descripcion Esta es la descripcion Esta es la descripcion Esta es la descripcion  </p>
+                        <button>Reservar</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Broo, los ssscrippptsss 🤙🏽 -->
+    <script src="./assets/js/responsive.js"></script>
+    <script src="./assets/js/game.js"></script>
+</body>
+
+</html>
