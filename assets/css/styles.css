@@ -322,10 +322,10 @@ body {
     }
 
     .hero .hero__presentation {
-        width: 80%;
+        width: 86%;
         height: 50%;
-        margin-top: 10%;
-        margin-left: 10%;
+        margin-top: 7%;
+        margin-left: 7%;
         margin-right: 3%;
         padding-top: 30%;
     }
@@ -337,17 +337,24 @@ body {
         margin-left: 10%;
         margin-top: 10%;
     }
-    .hero .hero__text .hero__title h3{
+
+    .hero .hero__text .hero__title h3 {
         font-size: 20px;
     }
-    .start{
-        top: 100%;
+
+    .start {
+        top: 110%;
     }
 }
-@media (max-width: 300px){
-   .hero .hero__text .hero__description p{
-    font-size: 12px;
-   }
+
+@media (max-width: 370px) {
+    .hero {
+        height: 115vh;
+    }
+
+    .hero .hero__text .hero__description p {
+        font-size: 12px;
+    }
 }
 
 /*Responsive de los services*/
@@ -379,7 +386,8 @@ body {
     .services__container .grilla {
         grid-template-columns: repeat(2, 1fr);
     }
-    .services__container .grilla .card{
+
+    .services__container .grilla .card {
         height: 87%;
     }
 
@@ -394,9 +402,10 @@ body {
         transition: 0.8s;
     }
 }
+
 @media (max-width:480px) {
-   
-    .services__container .grilla .card{
+
+    .services__container .grilla .card {
         height: 100%;
     }
 
