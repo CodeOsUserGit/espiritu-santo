@@ -332,12 +332,22 @@ body {
 
     .hero .hero__text {
         padding-top: 0;
-        width: 92%;
+        width: 80%;
         margin-top: 10%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .hero .hero__text .hero__title h3{
+        font-size: 20px;
     }
     .start{
         top: 100%;
     }
+}
+@media (max-width: 300px){
+   .hero .hero__text .hero__description p{
+    font-size: 12px;
+   }
 }
 
 /*Responsive de los services*/
