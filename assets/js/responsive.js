@@ -14,5 +14,3 @@ function showMenu(menu) {
         menu.value = "hide"
     }
 }
-
-alert(innerWidth) 
