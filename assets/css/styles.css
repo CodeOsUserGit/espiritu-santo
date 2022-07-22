@@ -154,7 +154,7 @@ body {
     font-size: 18px;
     color: #fff;
     background: blue;
-    top: 100%;
+    top: 90%;
     left: 35%;
     right: 35%;
     transition: .8s;
@@ -311,7 +311,7 @@ body {
     }
 
     .start {
-        top: 100%;
+        top: 90%;
     }
 }
 
@@ -322,10 +322,10 @@ body {
     }
 
     .hero .hero__presentation {
-        width: 94%;
-        height: 46%;
-        margin-top: 2%;
-        margin-left: 3%;
+        width: 80%;
+        height: 50%;
+        margin-top: 10%;
+        margin-left: 10%;
         margin-right: 3%;
         padding-top: 30%;
     }
@@ -334,6 +334,9 @@ body {
         padding-top: 0;
         width: 92%;
         margin-top: 10%;
+    }
+    .start{
+        top: 100%;
     }
 }
 
